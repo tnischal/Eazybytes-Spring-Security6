@@ -25,3 +25,5 @@ w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482
 Å
 Q.idea/sonarlint/securityhotspotstore/a/c/ace5edbe09901913ff251c2a2fdadd8b82f2cc5e,c/c/cc09aa67c3ec35dc07ffad3d4a4820351c3cfaf6
+Å
+Qsrc/main/java/com/eazybytes/springbootsecurity6/Controller/WelcomeController.java,1/f/1fd7790a02a0b05efe5059687a34295864754111
