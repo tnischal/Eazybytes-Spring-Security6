@@ -5,12 +5,32 @@ spring:
     url: jdbc:mysql://learnspringsecurity.cx4swi2q40pf.us-east-1.rds.amazonaws.com/EazyBytes
     username: admin
     password: learnSpringSecurity
+    driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
     properties:
       hibernate:
         format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
 
 
 #spring.security.user.name=Eazybytes
 #spring.security.user.password=12345
+
+##on 8080 our application runs by default but we can override that port and give different port as well
+#  server.port=7777
+#
+#  #database configurations
+#  spring.datasource.url=jdbc:mysql://localhost:3306/Nischal1
+#  spring.datasource.username=root
+#  spring.datasource.password=rootroot
+#  spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+#
+#  #displays query running from jpa in console
+#  spring.jpa.show-sql=true
+#  #updates databases everytime when we add or remove any fields
+#  spring.jpa.hibernate.ddl-auto=update
+#  #acts like a bridge between jdbc and sql type, mapping between java language and database type
+#  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
