@@ -1,0 +1,9 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8–ô´ú1J$2c20dac9-c14c-4182-9775-0c7bb3dded8f
+x
+java:S1854"5Remove this useless assignment to local variable "a".(îŸóÔ8šô´ú1J$33d591c6-1969-4cdb-a615-d0c9f8a34f2a
+i
+java:S1659"&Declare "password" on a separate line.(§Úºı8ô´ú1J$60449317-86cf-4b60-9ae4-21dfba24ef97
+i
+java:S1481"&Remove this unused "a" local variable.(îŸóÔ8ô´ú1J$e9978dab-1a6d-428f-8485-42b5c1cffaf7
