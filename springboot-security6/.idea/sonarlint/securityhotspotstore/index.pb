@@ -159,3 +159,5 @@ w
 G.idea/sonarlint/issuestore/2/b/2b49b40b760979f1f026843b37f89eceed1c5beb,a/6/a663059678a6fcdd0298791df69d30cde7dc6647
 Å
 Q.idea/sonarlint/securityhotspotstore/8/4/84b9b6189ce62278f696214ee1ef5494f29d80bb,8/9/89ebbf372bb49cf6cd910e26cc84083ade7e1744
+Ä
+Psrc/main/java/com/eazybytes/springbootsecurity6/config/ProjecSecurityConfig.java,8/0/80e83b4cc402736643cfbec96713ac42762401b3
