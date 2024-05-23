@@ -1,0 +1,16 @@
+spring:
+  application:
+    name=springboot-security6
+  datasource:
+    url: jdbc:mysql://learnspringsecurity.cx4swi2q40pf.us-east-1.rds.amazonaws.com/EazyBytes
+    username: admin
+    password: learnSpringSecurity
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
+#spring.security.user.name=Eazybytes
+#spring.security.user.password=12345
