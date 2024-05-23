@@ -4,11 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class WelcomeController {
-
-    @GetMapping("/welcome")
-    public String welcome(){
-        return "Welcome to Spring Security 6 Application with Security";
+public class BalanceController {
+    @GetMapping("/balace")
+    public String balancedetails(){
+        return "Wow! $1M !!!";
     }
-
 }
