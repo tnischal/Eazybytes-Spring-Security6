@@ -1,22 +1,24 @@
 
+z
+java:S1611"2Remove the parentheses around the "csrf" parameter(ª»Çşÿÿÿÿ8…ñóü1J$14730216-07b7-4270-a9bb-4a95603aeb62
 y
-java:S1611"6Remove the parentheses around the "requests" parameter(îÿª¯8íï°ú1J$073de446-2362-46c6-a4d5-81ee6918204b
-}	java:S125("<This block of commented-out lines of code should be removed.(£é’28 íï°ú1J$0aa4ade3-9aac-46a5-a0b7-bfb108810aed
-}	java:S125<"<This block of commented-out lines of code should be removed.(£é’28 íï°ú1J$babc7b74-495c-47f4-856d-d7ab712e4af6
-ƒ	java:S125O"<This block of commented-out lines of code should be removed.(º£“øıÿÿÿÿ8º¹¬³ú1J$589222f1-1f1b-4b1c-90da-66ff3c20f343
-~
-java:S1874U";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(å‰ö8Öÿò°ú1J$a6b97e35-db36-4035-998e-419cdc054737
-~	java:S125`"<This block of commented-out lines of code should be removed.(ÿÓ 8Öÿò°ú1J$b0d712cf-864a-4c0b-af56-54aa62e7db4a
-~	java:S125h"<This block of commented-out lines of code should be removed.(ÿÓ 8Öÿò°ú1J$a0b7330c-7d52-4644-ac9d-1114d6746e9a
+java:S1611"6Remove the parentheses around the "requests" parameter(¢ÌÀÈ8ÊÑ÷ü1J$82970a6e-17b1-4ae8-895a-b15626cc5ccc
+~	java:S1252"<This block of commented-out lines of code should be removed.(ÿÓ 8‰ñóü1J$d63c57bb-016b-4374-8431-ec03d7116a51
+~	java:S125:"<This block of commented-out lines of code should be removed.(ÿÓ 8‰ñóü1J$0dbea00c-0e0b-4483-94fc-54c6b4ac3b04
+}	java:S125B"<This block of commented-out lines of code should be removed.(£é’28œŠÉ‚ü1J$a7833adc-d3ec-4f3b-9bc4-afe8d96123d6
+}	java:S125V"<This block of commented-out lines of code should be removed.(£é’28œŠÉ‚ü1J$cbf66a11-80ee-46b3-aec8-6b19ec521dc5
+ƒ	java:S125i"<This block of commented-out lines of code should be removed.(º£“øıÿÿÿÿ8œŠÉ‚ü1J$710f4b3d-a96d-476a-9b32-a71fce488ce9
 ’
-java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8£íï°ú1J$16ff09e4-c487-4e34-9b2f-a565e3588c10
+java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8Ìû÷ü1J$acbfa920-9c74-4f87-9857-a717fedc7182
 ™
-java:S1128"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.(ÊÁ¥8£íï°ú1J$4f065e70-f932-424f-9235-cee7fab9d261
+java:S1128"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.(ÊÁ¥8Ìû÷ü1J$cce9c7d2-a3c7-4efb-ba53-7f366a968c98
  
-java:S1128	"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8½¹¬³ú1J$1df1fc6e-2f2c-4f85-a85d-304872394624
+java:S1128	"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8Ìû÷ü1J$0499d423-8894-4433-b089-362e24d479b7
+ 
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.password.NoOpPasswordEncoder'.(ƒ»ÅÅ8Ìû÷ü1J$55a4cb21-a6b0-44a6-8630-1ad043dbfc08
 ©
-java:S1128"aRemove this unused import 'org.springframework.security.provisioning.InMemoryUserDetailsManager'.(îŒúùÿÿÿÿ8¤íï°ú1J$35e58695-6242-4e9d-8833-e405791d209a
+java:S1128"aRemove this unused import 'org.springframework.security.provisioning.InMemoryUserDetailsManager'.(îŒúùÿÿÿÿ8Ìû÷ü1J$f6623a6e-b805-41fd-a8db-0c24eeb97467
 ¥
-java:S1128"]Remove this unused import 'org.springframework.security.provisioning.JdbcUserDetailsManager'.(ˆâô úÿÿÿÿ8¾¹¬³ú1J$a917bf80-bad7-4490-b6e4-cc72e5f0f28c
+java:S1128"]Remove this unused import 'org.springframework.security.provisioning.JdbcUserDetailsManager'.(ˆâô úÿÿÿÿ8Íû÷ü1J$72d49d5d-d4d5-46c6-96fe-fcaaf137b691
 y
-java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ8¾¹¬³ú1J$4f4ab4db-6645-4c80-afad-053c3bf5673c
+java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ8Íû÷ü1J$431924e4-7dc7-4aae-9e4d-1db76ca0a20b

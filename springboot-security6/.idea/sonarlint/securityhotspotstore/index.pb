@@ -307,3 +307,7 @@ Q.idea/sonarlint/securityhotspotstore/9/3/93f8de54e7d0fbcd1bc646516a4131f497b38a
 Q.idea/sonarlint/securityhotspotstore/2/5/258f228313c85e0c3f01035a6f01ab695565daee,e/f/effa2a3af62acefff4c8f65780c9555f2896e415
 Å
 Q.idea/sonarlint/securityhotspotstore/2/3/236d089ad488dc1a682de0185d0e864e5e18dc80,0/6/062262e3f5625220d72da0e45f5388d5e83432bb
+ã
+[src/main/java/com/eazybytes/springbootsecurity6/config/EazyBankUsernamePwdAuthProvider.java,4/6/465dcfee7c58746af0d6253f1d4c3b7c612c390b
+è
+_src/main/java/com/eazybytes/springbootsecurity6/config/CostumLoginCreation/LoginController.java,d/6/d6bb5c0a16a3f014a2046c88a3f09e37e4103f40

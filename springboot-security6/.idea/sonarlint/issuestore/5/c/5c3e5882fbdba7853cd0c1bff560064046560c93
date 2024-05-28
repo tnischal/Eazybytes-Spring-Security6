@@ -1,11 +1,9 @@
 
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8–ô´ú1J$4507d2bd-4fd1-4c6a-b779-ec13430a73fc
-x
-java:S1854"5Remove this useless assignment to local variable "a".(îŸóÔ8šô´ú1J$76a33536-f38b-4940-b293-276832f19b68
-i
-java:S1659"&Declare "password" on a separate line.(§Úºı8ô´ú1J$dfd778b9-0796-4436-bebb-c2969a5ca720
-i
-java:S1481"&Remove this unused "a" local variable.(îŸóÔ8ô´ú1J$4607c238-f96a-4fc9-b3a8-83ec86a81572
-¡
-java:S1128"YRemove this unused import 'org.springframework.security.crypto.password.PasswordEncoder'.(‰¡ßáÿÿÿÿÿ8ğ»ôÄú1J$dcfb65d5-cbac-4a29-8acc-ff9c7e3eca40
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8·Ô¥Åú1
+R
+java:S1854"5Remove this useless assignment to local variable "a".(îŸóÔ8ÃÔ¥Åú1
+C
+java:S1659"&Declare "password" on a separate line.(§Úºı8ÉÔ¥Åú1
+C
+java:S1481"&Remove this unused "a" local variable.(îŸóÔ8ÏÔ¥Åú1

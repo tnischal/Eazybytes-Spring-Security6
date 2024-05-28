@@ -5,6 +5,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -16,14 +18,14 @@ public class LoginController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    @PostMapping("/signup")
-    public ResponseEntity<String> registerUser(CustomerEntity customer){
+    @PostMapping("/register")
+    public ResponseEntity<String> registerUser(@RequestBody CustomerEntity customer){
 
-        CustomerEntity savedCustomer = null;
-        ResponseEntity response =null;
+        System.out.println(customer.getEmail());
+        CustomerEntity savedCustomer;
+        ResponseEntity response= null;
         try{
-            String hashPassword = passwordEncoder.encode(customer.getPwd());
-            customer.setPwd(hashPassword);
+            customer.setPwd(passwordEncoder.encode(customer.getPwd()));
             savedCustomer = customerRepo.save(customer);
             if(savedCustomer.getId()>0) {
                 response = ResponseEntity.status(HttpStatus.CREATED).body("User Registered");
