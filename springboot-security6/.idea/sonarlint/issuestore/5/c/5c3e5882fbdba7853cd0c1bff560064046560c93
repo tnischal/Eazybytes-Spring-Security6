@@ -1,9 +1,4 @@
 
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8·Ô¥Åú1
-R
-java:S1854"5Remove this useless assignment to local variable "a".(îŸóÔ8ÃÔ¥Åú1
-C
-java:S1659"&Declare "password" on a separate line.(§Úºı8ÉÔ¥Åú1
-C
-java:S1481"&Remove this unused "a" local variable.(îŸóÔ8ÏÔ¥Åú1
+]
+java:S1220""Move this file to a named package.8©‰÷‚ü1J$685756ea-f55a-434e-9fe0-3cc8c86987e2
+~	java:S125"<This block of commented-out lines of code should be removed.(üÆÁ8«‰÷‚ü1J$28c30ce3-810a-4195-b46a-72bed7cc1269
