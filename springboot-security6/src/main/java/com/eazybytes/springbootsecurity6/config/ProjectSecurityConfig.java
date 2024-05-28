@@ -1,5 +1,6 @@
 package com.eazybytes.springbootsecurity6.config;
 
+import com.eazybytes.springbootsecurity6.CsrfCookieFilter;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,32 +31,45 @@ public class ProjectSecurityConfig {
     @Bean
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
 
+            CsrfTokenRequestAttributeHandler requestHandler = new CsrfTokenRequestAttributeHandler();
+            requestHandler.setCsrfRequestAttributeName("_csrf");
+
+            http.securityContext((context) -> context
+                            .requireExplicitSave(false))
+                            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.ALWAYS))
 
 
-        http.securityContext((context) -> context
-                        .requireExplicitSave(false))
-                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.ALWAYS))
-                .cors(corsCustomizer -> corsCustomizer.configurationSource(new CorsConfigurationSource() {
-                    @Override
-                    public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
-                        CorsConfiguration config = new CorsConfiguration();
-                        config.setAllowedOrigins(Collections.singletonList("http://localhost:4200"));
-                        config.setAllowedMethods(Collections.singletonList("*"));
-                        config.setAllowCredentials(true);
-                        config.setAllowedHeaders(Collections.singletonList("*"));
-                        config.setMaxAge(3600L);
-                        return config;
-                    }
-                }))
-                .authorizeHttpRequests((requests)->requests
-                        .requestMatchers("/myAccount", "/myBalance", "/myLoans", "/myCards", "/user").authenticated()
-                        .requestMatchers("/notices", "/contact", "/register").permitAll())
-                .formLogin(Customizer.withDefaults())
-                .httpBasic(Customizer.withDefaults());
-        return http.build();
+
+                            .cors(corsCustomizer -> corsCustomizer.configurationSource(new CorsConfigurationSource() {
+                                @Override
+                                public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
+                                    CorsConfiguration config = new CorsConfiguration();
+                                    config.setAllowedOrigins(Collections.singletonList("http://localhost:4200"));
+                                    config.setAllowedMethods(Collections.singletonList("*"));
+                                    config.setAllowCredentials(true);
+                                    config.setAllowedHeaders(Collections.singletonList("*"));
+                                    config.setMaxAge(3600L);
+                                    return config;
+                                }
+                             }))
 
 
-    }
+
+                    .csrf((csrf) -> csrf.csrfTokenRequestHandler(requestHandler).ignoringRequestMatchers("/contact", "/register")
+                            .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
+                            .addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class)
+
+
+                    .authorizeHttpRequests((requests)->requests
+                            .requestMatchers("/myAccount", "/myBalance", "/myLoans", "/myCards", "/user").authenticated()
+                            .requestMatchers("/notices", "/contact", "/register").permitAll())
+                            .formLogin(Customizer.withDefaults())
+                            .httpBasic(Customizer.withDefaults());
+
+
+            return http.build();
+        }
+
     @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();

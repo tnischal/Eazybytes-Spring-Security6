@@ -1,33 +1,29 @@
 
 p
-java:S1604&"(Make this anonymous inner class a lambda(òèööûÿÿÿÿ8œŒÀƒü1J$47ba0291-4caf-4eae-970a-e241bf536a0e
+java:S1604+"(Make this anonymous inner class a lambda(òèööûÿÿÿÿ8¬îƒü1J$1463ea62-b267-4e38-abe1-ef6dbdcab21b
 }
-java:S1611#"5Remove the parentheses around the "context" parameter(³›´÷ıÿÿÿÿ8ÉŒÀƒü1J$1a36f033-cde6-4c99-aeb5-92ae358c3fd7
+java:S1611%"5Remove the parentheses around the "context" parameter(³›´÷ıÿÿÿÿ8¯¬îƒü1J$aaa84071-5ae0-4a92-a9c2-cef6a27379f0
+u
+java:S1611:"2Remove the parentheses around the "csrf" parameter(ëğ¦î8´¬îƒü1J$eb5b4922-f37e-473a-a1af-7b911a9170ae
 y
-java:S16112"6Remove the parentheses around the "requests" parameter(¢ÌÀÈ8ÏŒÀƒü1J$4435eb61-f6c3-41f8-bfe1-b7562a6dd89b
-~	java:S125H"<This block of commented-out lines of code should be removed.(ÿÓ 8©ø¼ƒü1J$5e3b896d-313a-401f-8d35-c44da2858866
-~	java:S125P"<This block of commented-out lines of code should be removed.(ÿÓ 8©ø¼ƒü1J$80237886-630c-482d-ac4f-cd86d659af09
-}	java:S125X"<This block of commented-out lines of code should be removed.(£é’28©ø¼ƒü1J$decac496-8807-4637-a324-7c7b99adb4bd
-}	java:S125l"<This block of commented-out lines of code should be removed.(£é’28©ø¼ƒü1J$662ffec0-63d4-4af3-b26a-a129860ebf39
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(º£“øıÿÿÿÿ8©ø¼ƒü1J$9399f94e-e0a8-4a83-b8d5-a70e6e8f86f2
+java:S1611?"6Remove the parentheses around the "requests" parameter(¢ÌÀÈ8µ¬îƒü1J$e59cdcde-7c92-4665-bd73-e10e664e11bf
+~	java:S125V"<This block of commented-out lines of code should be removed.(ÿÓ 8ÎÙÑ„ü1J$52255b46-12e1-4c05-8059-8e6826311ff7
+~	java:S125^"<This block of commented-out lines of code should be removed.(ÿÓ 8ÏÙÑ„ü1J$bcb10534-3078-4fcd-8b0f-1f30438d1ef5
+}	java:S125f"<This block of commented-out lines of code should be removed.(£é’28ÏÙÑ„ü1J$7cba3081-f014-45a4-acf3-3ad3728c8b61
+}	java:S125z"<This block of commented-out lines of code should be removed.(£é’28ÏÙÑ„ü1J$99341b3d-28ac-4e44-8032-b9526ea7f5a7
+„	java:S125"<This block of commented-out lines of code should be removed.(º£“øıÿÿÿÿ8ÏÙÑ„ü1J$7d361768-1a19-4686-9f83-c5d6c31c0841
 ’
-java:S1128	"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8²ŒÇƒü1J$2319610d-2eb7-4737-b05c-6d92d757f69a
-™
 java:S1128
-"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.(ÊÁ¥8²ŒÇƒü1J$efcf1d04-8bbb-437a-bfd7-7e5aaf915b39
+"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8¥Ğ…„ü1J$07c49e63-5d2a-4e04-9583-cf7cb0c13e94
+™
+java:S1128"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.(ÊÁ¥8¥Ğ…„ü1J$bad0d36f-0bda-4e9e-b635-3f6ccbcab5af
  
-java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8²ŒÇƒü1J$b75feda7-f3be-43ae-a1ba-fb591e0bf0d8
+java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8¥Ğ…„ü1J$1356a018-b88f-4e05-8e32-95400430f6dc
  
-java:S1128"]Remove this unused import 'org.springframework.security.crypto.password.NoOpPasswordEncoder'.(ƒ»ÅÅ8²ŒÇƒü1J$ef169488-dab5-4562-84ce-47bfb013efa4
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.password.NoOpPasswordEncoder'.(ƒ»ÅÅ8¥Ğ…„ü1J$92259fe7-3128-41ac-a411-97fc825b06cd
 ©
-java:S1128"aRemove this unused import 'org.springframework.security.provisioning.InMemoryUserDetailsManager'.(îŒúùÿÿÿÿ8²ŒÇƒü1J$0ce19eac-39b0-4988-9e14-0a146a807f33
+java:S1128"aRemove this unused import 'org.springframework.security.provisioning.InMemoryUserDetailsManager'.(îŒúùÿÿÿÿ8¥Ğ…„ü1J$21b655d1-3681-4353-a296-01460d41339c
 ¥
-java:S1128"]Remove this unused import 'org.springframework.security.provisioning.JdbcUserDetailsManager'.(ˆâô úÿÿÿÿ8³ŒÇƒü1J$cd860865-4a1e-49d6-b67f-e22b7403610e
-²
-java:S1128"jRemove this unused import 'org.springframework.security.web.authentication.www.BasicAuthenticationFilter'.(çìóÕûÿÿÿÿ8³ŒÇƒü1J$e664fb80-f267-4943-b877-1b5f9d4c6dc9
-¤
-java:S1128"\Remove this unused import 'org.springframework.security.web.csrf.CookieCsrfTokenRepository'.(‰—Şµøÿÿÿÿ8ØÑÉƒü1J$de9f70d1-a521-4bac-bc05-f98a304e7fc1
-¥
-java:S1128"cRemove this unused import 'org.springframework.security.web.csrf.CsrfTokenRequestAttributeHandler'.(¾ùÙ.8”½Íƒü1J$1a671348-3a09-44e5-ad4a-d3f63123e075
+java:S1128"]Remove this unused import 'org.springframework.security.provisioning.JdbcUserDetailsManager'.(ˆâô úÿÿÿÿ8¥Ğ…„ü1J$43aa2b62-ea83-485e-999f-3d7d5d49b28f
 y
-java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ8³ŒÇƒü1J$9841cb01-f001-4c57-8b86-88cc8437faab
+java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ8¥Ğ…„ü1J$de49ba2a-f686-408a-a5c2-a66d5f378882
